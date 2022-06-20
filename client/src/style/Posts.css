@@ -1,0 +1,16 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+}
+
+.postsPaper {
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* 왜 적용이 안되는가=> 아마 component를 .js로 새로 파면 거기서 className넣고 css를 설정해줘야 하는게 아닌가 => 후에 확인 */
+.postsCard { 
+    border : 1px solid red;
+    margin: 30px;
+}
